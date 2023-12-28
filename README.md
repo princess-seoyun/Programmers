@@ -2,4 +2,4 @@
 
 2023.12.27
 
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+프로그래머스 문제 풀면 풀이한 코드가 자동으로 올라가는 레포지토리
