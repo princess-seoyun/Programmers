@@ -5,7 +5,7 @@ class Solution {
         for(int i = 0 ; i < signs.length ; i++){
             if(signs[i] == false)
             {
-                absolutes[i] = -absolutes[i];
+                absolutes[i] = -absolutes[i]; // 단순하게 *-1 해줘서 음수 만드는 것
             }
         }
         
