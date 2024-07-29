@@ -10,11 +10,6 @@ func solution(_ numbers:[Int]) -> Double {
         answer += Double(numbers[i])
     }
     
-    // 방법 2
-    // 배열의 값을 모두 더하기
-    // for number in numbers {
-    //     answer += Double(number)
-    // }
     
     answer = answer / Double(numbers.count)
     
