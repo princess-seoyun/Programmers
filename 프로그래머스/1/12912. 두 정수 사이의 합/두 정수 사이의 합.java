@@ -1,16 +1,24 @@
 class Solution {
     public long solution(int a, int b) {
         long answer = 0;
-        int k = 0;
         
-        if(a<b){
-            for(int i = a ; i <=b ; i++) {
-            answer += i;
-            }
-        } else {
-            for(int i = b; i <=a ; i++){
-                answer += i;
-            }
+        int swp = 0;
+        if(a > b) 
+        {
+            swp = a;
+            a = b;
+            b = swp;
+        }
+        
+        System.out.println(a);
+        System.out.println(b);
+        
+        
+        while(true)
+        {
+            answer += a;
+            if(a==b) break;
+            a++;
         }
         
         return answer;
